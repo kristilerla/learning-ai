@@ -46,6 +46,12 @@ button {
    margin: 0 auto;
     
 }
+.quote {
+    display: block;
+text-align: center;
+font-size: 24px;
+color: blue;
+}
 footer {
     text-align: center;
     font-weight: 200;
