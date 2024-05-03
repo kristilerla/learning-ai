@@ -1,20 +1,13 @@
-function handleClick(response){
-    return(response.data.answer)
+function handleClick (response){
+    alert(response.data.answer)
     
 }
 
 let buttonElement = document.querySelector("#special-button");
 buttonElement.addEventListener("click", handleClick);
 
-new Typewriter('#response', {
-  strings: ['return'],
-  autoStart: true,
-});
-
-
-
-function showResult(response){
-    alert(response.data.answer);
+function showResult(response) {
+   alert (response.data.answer)
 }
 
 let apiKey = "4ff060ct0o35c409303b648f04f0ab31";
